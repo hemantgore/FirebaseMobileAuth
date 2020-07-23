@@ -1,0 +1,12 @@
+
+/* Class = "UITextField"; placeholder = "Mobile No. (+91 1234567890)"; ObjectID = "JZq-6q-dbN"; */
+"JZq-6q-dbN.placeholder" = "मोबाईल क्रमांक. 91 1234567890";
+
+/* Class = "UINavigationItem"; title = "Dashboard"; ObjectID = "XeS-1e-hhI"; */
+"XeS-1e-hhI.title" = "मुख्यपृष्ठ";
+
+/* Class = "UIButton"; normalTitle = "LOGIN"; ObjectID = "bto-iq-l5f"; */
+"bto-iq-l5f.normalTitle" = "लॉगिन करा";
+
+/* Class = "UIBarButtonItem"; title = "Logout"; ObjectID = "kei-o2-iUT"; */
+"kei-o2-iUT.title" = "लॉग आउट";

@@ -1,0 +1,504 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		219D47FB24C9D6B900E07D27 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 219D47FA24C9D6B900E07D27 /* AppDelegate.swift */; };
+		219D47FD24C9D6B900E07D27 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 219D47FC24C9D6B900E07D27 /* SceneDelegate.swift */; };
+		219D47FF24C9D6B900E07D27 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 219D47FE24C9D6B900E07D27 /* ViewController.swift */; };
+		219D480224C9D6B900E07D27 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 219D480024C9D6B900E07D27 /* Main.storyboard */; };
+		219D480424C9D6BC00E07D27 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 219D480324C9D6BC00E07D27 /* Assets.xcassets */; };
+		219D480724C9D6BC00E07D27 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 219D480524C9D6BC00E07D27 /* LaunchScreen.storyboard */; };
+		219D480F24C9DCBA00E07D27 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 219D480E24C9DCBA00E07D27 /* GoogleService-Info.plist */; };
+		219D481224C9F2AE00E07D27 /* DashboardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 219D481124C9F2AE00E07D27 /* DashboardViewController.swift */; };
+		219D481524C9F73400E07D27 /* UIViewController+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 219D481424C9F73400E07D27 /* UIViewController+Extension.swift */; };
+		219D481B24CA251A00E07D27 /* Shivaji02.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 219D481824CA251A00E07D27 /* Shivaji02.ttf */; };
+		219D481C24CA251A00E07D27 /* Shivaji01.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 219D481924CA251A00E07D27 /* Shivaji01.ttf */; };
+		219D481D24CA251A00E07D27 /* Shivaji05.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 219D481A24CA251A00E07D27 /* Shivaji05.ttf */; };
+		219D481F24CA260700E07D27 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 219D481E24CA260700E07D27 /* Constants.swift */; };
+		219D482124CA264900E07D27 /* UIFont+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 219D482024CA264900E07D27 /* UIFont+Extension.swift */; };
+		219D482324CA279600E07D27 /* UILabel+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 219D482224CA279600E07D27 /* UILabel+Extension.swift */; };
+		219D482824CA2A8E00E07D27 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 219D482A24CA2A8E00E07D27 /* Localizable.strings */; };
+		EED7C65CC7AEAC1ADDAAD9B1 /* Pods_FarmerMakert.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F5AA5DD0C8AD106F149C888B /* Pods_FarmerMakert.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		219D47F724C9D6B900E07D27 /* FarmerMakert.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FarmerMakert.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		219D47FA24C9D6B900E07D27 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		219D47FC24C9D6B900E07D27 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		219D47FE24C9D6B900E07D27 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		219D480124C9D6B900E07D27 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		219D480324C9D6BC00E07D27 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		219D480624C9D6BC00E07D27 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		219D480824C9D6BC00E07D27 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		219D480E24C9DCBA00E07D27 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		219D481024C9DEF700E07D27 /* FarmerMakert.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = FarmerMakert.entitlements; sourceTree = "<group>"; };
+		219D481124C9F2AE00E07D27 /* DashboardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardViewController.swift; sourceTree = "<group>"; };
+		219D481424C9F73400E07D27 /* UIViewController+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+Extension.swift"; sourceTree = "<group>"; };
+		219D481824CA251A00E07D27 /* Shivaji02.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Shivaji02.ttf; sourceTree = "<group>"; };
+		219D481924CA251A00E07D27 /* Shivaji01.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Shivaji01.ttf; sourceTree = "<group>"; };
+		219D481A24CA251A00E07D27 /* Shivaji05.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Shivaji05.ttf; sourceTree = "<group>"; };
+		219D481E24CA260700E07D27 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		219D482024CA264900E07D27 /* UIFont+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIFont+Extension.swift"; sourceTree = "<group>"; };
+		219D482224CA279600E07D27 /* UILabel+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UILabel+Extension.swift"; sourceTree = "<group>"; };
+		219D482424CA289800E07D27 /* mr-IN */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "mr-IN"; path = "mr-IN.lproj/Main.strings"; sourceTree = "<group>"; };
+		219D482524CA289800E07D27 /* mr-IN */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "mr-IN"; path = "mr-IN.lproj/LaunchScreen.strings"; sourceTree = "<group>"; };
+		219D482924CA2A8E00E07D27 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		219D482B24CA2A9800E07D27 /* mr-IN */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "mr-IN"; path = "mr-IN.lproj/Localizable.strings"; sourceTree = "<group>"; };
+		6D94B3C82DD601A22F87A977 /* Pods-FarmerMakert.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FarmerMakert.debug.xcconfig"; path = "Target Support Files/Pods-FarmerMakert/Pods-FarmerMakert.debug.xcconfig"; sourceTree = "<group>"; };
+		ADF5C1FF68A8250C3815A685 /* Pods-FarmerMakert.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FarmerMakert.release.xcconfig"; path = "Target Support Files/Pods-FarmerMakert/Pods-FarmerMakert.release.xcconfig"; sourceTree = "<group>"; };
+		F5AA5DD0C8AD106F149C888B /* Pods_FarmerMakert.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FarmerMakert.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		219D47F424C9D6B900E07D27 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EED7C65CC7AEAC1ADDAAD9B1 /* Pods_FarmerMakert.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		19DDA66FA7DD17235C49DE67 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6D94B3C82DD601A22F87A977 /* Pods-FarmerMakert.debug.xcconfig */,
+				ADF5C1FF68A8250C3815A685 /* Pods-FarmerMakert.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		219D47EE24C9D6B900E07D27 = {
+			isa = PBXGroup;
+			children = (
+				219D47F924C9D6B900E07D27 /* FarmerMakert */,
+				219D47F824C9D6B900E07D27 /* Products */,
+				19DDA66FA7DD17235C49DE67 /* Pods */,
+				D1E88877267A027836CCE3B2 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		219D47F824C9D6B900E07D27 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				219D47F724C9D6B900E07D27 /* FarmerMakert.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		219D47F924C9D6B900E07D27 /* FarmerMakert */ = {
+			isa = PBXGroup;
+			children = (
+				219D481624CA24CC00E07D27 /* Fonts */,
+				219D481324C9F71400E07D27 /* Extension */,
+				219D481024C9DEF700E07D27 /* FarmerMakert.entitlements */,
+				219D47FA24C9D6B900E07D27 /* AppDelegate.swift */,
+				219D47FC24C9D6B900E07D27 /* SceneDelegate.swift */,
+				219D47FE24C9D6B900E07D27 /* ViewController.swift */,
+				219D481124C9F2AE00E07D27 /* DashboardViewController.swift */,
+				219D480024C9D6B900E07D27 /* Main.storyboard */,
+				219D480324C9D6BC00E07D27 /* Assets.xcassets */,
+				219D480524C9D6BC00E07D27 /* LaunchScreen.storyboard */,
+				219D480824C9D6BC00E07D27 /* Info.plist */,
+				219D480E24C9DCBA00E07D27 /* GoogleService-Info.plist */,
+				219D481E24CA260700E07D27 /* Constants.swift */,
+				219D482A24CA2A8E00E07D27 /* Localizable.strings */,
+			);
+			path = FarmerMakert;
+			sourceTree = "<group>";
+		};
+		219D481324C9F71400E07D27 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				219D481424C9F73400E07D27 /* UIViewController+Extension.swift */,
+				219D482024CA264900E07D27 /* UIFont+Extension.swift */,
+				219D482224CA279600E07D27 /* UILabel+Extension.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		219D481624CA24CC00E07D27 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				219D481724CA24D600E07D27 /* Marathi */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		219D481724CA24D600E07D27 /* Marathi */ = {
+			isa = PBXGroup;
+			children = (
+				219D481924CA251A00E07D27 /* Shivaji01.ttf */,
+				219D481824CA251A00E07D27 /* Shivaji02.ttf */,
+				219D481A24CA251A00E07D27 /* Shivaji05.ttf */,
+			);
+			path = Marathi;
+			sourceTree = "<group>";
+		};
+		D1E88877267A027836CCE3B2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F5AA5DD0C8AD106F149C888B /* Pods_FarmerMakert.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		219D47F624C9D6B900E07D27 /* FarmerMakert */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 219D480B24C9D6BC00E07D27 /* Build configuration list for PBXNativeTarget "FarmerMakert" */;
+			buildPhases = (
+				9E36DC6B6E56F3FD925FE186 /* [CP] Check Pods Manifest.lock */,
+				219D47F324C9D6B900E07D27 /* Sources */,
+				219D47F424C9D6B900E07D27 /* Frameworks */,
+				219D47F524C9D6B900E07D27 /* Resources */,
+				1DC169D60750181C86E7B230 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FarmerMakert;
+			productName = FarmerMakert;
+			productReference = 219D47F724C9D6B900E07D27 /* FarmerMakert.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		219D47EF24C9D6B900E07D27 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1120;
+				LastUpgradeCheck = 1120;
+				ORGANIZATIONNAME = "Sci-Fi";
+				TargetAttributes = {
+					219D47F624C9D6B900E07D27 = {
+						CreatedOnToolsVersion = 11.2.1;
+					};
+				};
+			};
+			buildConfigurationList = 219D47F224C9D6B900E07D27 /* Build configuration list for PBXProject "FarmerMakert" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+				"mr-IN",
+			);
+			mainGroup = 219D47EE24C9D6B900E07D27;
+			productRefGroup = 219D47F824C9D6B900E07D27 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				219D47F624C9D6B900E07D27 /* FarmerMakert */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		219D47F524C9D6B900E07D27 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				219D481D24CA251A00E07D27 /* Shivaji05.ttf in Resources */,
+				219D480724C9D6BC00E07D27 /* LaunchScreen.storyboard in Resources */,
+				219D481B24CA251A00E07D27 /* Shivaji02.ttf in Resources */,
+				219D480F24C9DCBA00E07D27 /* GoogleService-Info.plist in Resources */,
+				219D480424C9D6BC00E07D27 /* Assets.xcassets in Resources */,
+				219D482824CA2A8E00E07D27 /* Localizable.strings in Resources */,
+				219D481C24CA251A00E07D27 /* Shivaji01.ttf in Resources */,
+				219D480224C9D6B900E07D27 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1DC169D60750181C86E7B230 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FarmerMakert/Pods-FarmerMakert-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FarmerMakert/Pods-FarmerMakert-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-FarmerMakert/Pods-FarmerMakert-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9E36DC6B6E56F3FD925FE186 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FarmerMakert-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		219D47F324C9D6B900E07D27 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				219D482124CA264900E07D27 /* UIFont+Extension.swift in Sources */,
+				219D482324CA279600E07D27 /* UILabel+Extension.swift in Sources */,
+				219D47FF24C9D6B900E07D27 /* ViewController.swift in Sources */,
+				219D47FB24C9D6B900E07D27 /* AppDelegate.swift in Sources */,
+				219D47FD24C9D6B900E07D27 /* SceneDelegate.swift in Sources */,
+				219D481524C9F73400E07D27 /* UIViewController+Extension.swift in Sources */,
+				219D481224C9F2AE00E07D27 /* DashboardViewController.swift in Sources */,
+				219D481F24CA260700E07D27 /* Constants.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		219D480024C9D6B900E07D27 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				219D480124C9D6B900E07D27 /* Base */,
+				219D482424CA289800E07D27 /* mr-IN */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		219D480524C9D6BC00E07D27 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				219D480624C9D6BC00E07D27 /* Base */,
+				219D482524CA289800E07D27 /* mr-IN */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		219D482A24CA2A8E00E07D27 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				219D482924CA2A8E00E07D27 /* en */,
+				219D482B24CA2A9800E07D27 /* mr-IN */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		219D480924C9D6BC00E07D27 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		219D480A24C9D6BC00E07D27 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		219D480C24C9D6BC00E07D27 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6D94B3C82DD601A22F87A977 /* Pods-FarmerMakert.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = FarmerMakert/FarmerMakert.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = 6RRPP2BC2L;
+				INFOPLIST_FILE = FarmerMakert/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.jci.appexperiment;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "JCI-App-Experiment";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		219D480D24C9D6BC00E07D27 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = ADF5C1FF68A8250C3815A685 /* Pods-FarmerMakert.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = FarmerMakert/FarmerMakert.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = 6RRPP2BC2L;
+				INFOPLIST_FILE = FarmerMakert/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.jci.appexperiment;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "JCI-App-Experiment";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		219D47F224C9D6B900E07D27 /* Build configuration list for PBXProject "FarmerMakert" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				219D480924C9D6BC00E07D27 /* Debug */,
+				219D480A24C9D6BC00E07D27 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		219D480B24C9D6BC00E07D27 /* Build configuration list for PBXNativeTarget "FarmerMakert" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				219D480C24C9D6BC00E07D27 /* Debug */,
+				219D480D24C9D6BC00E07D27 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 219D47EF24C9D6B900E07D27 /* Project object */;
+}
